@@ -1,0 +1,365 @@
+/* Universal Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* --- Universal Styles-Finish --- */
+
+
+
+
+
+
+/* --- Html,Body Styles --- */
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #F9FBFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+}
+
+
+/* --- Html,Body Styles-Finish --- */
+
+
+
+
+/* Header */
+
+
+
+header {
+    background-image: url(img/header/games-room-abt.png);
+    background-size: cover;
+    width: 100%;
+    height: 746px;
+
+}
+
+header .logo {
+    position: fixed;
+    float: left;
+    color: #fff;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+}
+
+
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+
+
+nav ul {
+    list-style: none;
+    background: rgb(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
+
+nav.black ul {
+    background: #212529;
+    opacity: 0.8;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-left: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+nav ul li a {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    transition: all 500ms;
+}
+
+
+nav ul li a:hover {
+    color: #ffb902;
+
+}
+
+nav ul li a:active {
+    color: #026cb8;
+    transition: all 5ms;
+}
+
+
+
+.service-text {
+    width: 100%;
+    color: #fff;
+    margin-bottom: 10rem;
+    
+}
+
+.service-text .text {
+    width: 750px;
+    height: 120px;
+    margin: auto;
+    padding-top: 1.5rem;
+    background-image: url(img/header/dg-1.jpg);
+    border-radius: 3px;
+}
+
+
+
+
+/* Header-Finish */
+
+
+
+
+
+
+/* Main */
+
+
+
+main {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+
+main .main-about-area-1 .box {
+    width: 900px;
+    height: 600px;
+    border-radius: 3px;
+}
+
+
+
+
+main .main-about-area-1 .about-1 {
+    float: left;
+    background-image: url(img/about-area-1/about-1.jpg);
+    background-size: contain;
+}
+
+
+
+main .main-about-area-1 .about-2 {
+    float: right;
+    padding-top: 3rem;
+    padding-left: 5rem;
+}
+
+
+
+main .main-about-area-1 .about-2 .text {
+    padding-left: 2rem;
+    width: 680px;
+}
+
+
+
+main .main-about-area-1 .about-2 p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.abt-btn {
+    font-size: 1.4rem;
+    width: 150px;
+    background: #026cb8;
+    color: #fff;
+    border: 1px solid #026cb8;
+    border-radius: 30px;
+    transition: all 500ms;
+}
+
+
+.abt-btn:hover {
+    border: 1px solid #026cb8;
+    background: #F9FBFF;
+    color: #026cb8;
+}
+
+
+
+
+
+
+
+main .main-about-area-2 {
+    margin-top: 10rem;
+}
+
+
+main .main-about-area-2 .about-3 {
+    float: left;
+}
+
+main .main-about-area-2 .about-4 {
+    float: right;
+}
+
+
+main .main-about-area-2 .about-3 .text {
+    width: 800px;
+
+}
+
+main .main-about-area-2 .about-3 .text p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+main .main-about-area-2 .about-3 .text .check {
+    font-size: 1.5rem;
+}
+
+main .main-about-area-2 .about-3 .text .check ul li {
+    margin-bottom: 1rem;
+}
+
+
+main .main-about-area-2 .about-4 {
+    width: 800px;
+    padding-top: 3rem;
+    padding-right: 83rem;
+
+}
+
+.abt-img {
+    width: 750px;
+    height: 500px;
+
+}
+
+
+
+
+/* Main-Finish */
+
+
+
+
+
+
+/* Footer */
+
+
+
+
+footer {
+    margin-top: 10rem;
+}
+
+
+footer .footer-maps {
+    background-color: #026cb8;
+    padding: 5rem 20rem;
+}
+
+
+
+footer .footer-maps .maps {
+    float: right;
+
+}
+
+
+
+footer .footer-adress {
+    width: 650px;
+    color: white;
+    margin-top: 3rem;
+}
+
+
+
+footer .footer-adress p {
+    font-size: 1.4rem;
+}
+
+
+
+footer .footer-adress .footer-icn-1 {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+
+
+
+footer .footer-adress .adress-icn {
+    text-align: justify;
+}
+
+
+
+
+footer .footer-adress .footer-icn-2 {
+    margin-right: 2rem;
+    transition: all 750ms;
+
+}
+
+
+
+footer .footer-adress .footer-icn-2:hover {
+    color: #ffb902;
+    cursor: pointer;
+}
+
+
+
+footer .footer-copyright {
+
+    text-align: center;
+    height: 45px;
+    background-color: #026cb8;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+/* Footer-Finish */

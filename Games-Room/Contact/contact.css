@@ -1,0 +1,391 @@
+/* Universal Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* --- Universal Styles-Finish --- */
+
+
+
+
+
+
+
+/* --- Html,Body Styles --- */
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #F9FBFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 1px;
+
+
+}
+
+
+/* --- Html,Body Styles-Finish --- */
+
+
+
+
+
+
+
+/* --- Header --- */
+
+
+header {
+    background-image: url(img/header/contact-.png);
+    background-size: cover;
+    width: 100%;
+    height: 745px;
+
+}
+
+header .logo {
+    position: fixed;
+    float: left;
+    color: #fff;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+}
+
+
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+
+
+nav ul {
+    list-style: none;
+    background: rgb(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
+
+nav.black ul {
+    background: #212529;
+    opacity: 0.8;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-left: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+nav ul li a {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    transition: all 500ms;
+}
+
+
+nav ul li a:hover {
+    color: #ffb902;
+
+}
+
+nav ul li a:active {
+    color: #026cb8;
+    transition: all 5ms;
+}
+
+
+
+.service-text {
+    width: 100%;
+    color: #fff;
+    margin-top: 5rem;
+
+}
+
+.service-text .text {
+    width: 750px;
+    height: 120px;
+    margin: auto;
+    padding-top: 1.5rem;
+    background-image: url(img/header/dg-1.jpg);
+    border-radius: 3px;
+}
+
+
+
+
+/* --- Header-Finish --- */
+
+
+
+
+
+
+/* --- Main--- */
+
+main {
+    margin-top: 15rem;
+    margin-bottom: 20rem;
+}
+
+
+main .contact-text {
+    margin-bottom: 5rem;
+}
+
+
+main .text {
+    width: 900px;
+    height: 300px;
+    text-align: justify;
+    margin: auto;
+}
+
+main .text h2 {
+    color: #026cb8;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+main .text p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+/* --- Main-Contact-Area --- */
+
+
+
+
+
+
+
+.main-contact-area {
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+
+
+
+
+.main-contact-area .contact-text {
+    padding: 1rem;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+
+
+
+.main-contact-area .contact-box h2 {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+
+
+
+.main-contact-area .contact-box hr {
+    width: 300px;
+    opacity: 0.5;
+    margin: auto;
+}
+
+
+.main-contact-area .contact-box .contact-form {
+    width: 70%;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+
+
+.main-contact-area .contact-box .contact-form .form-group {
+    border-bottom: 2px solid black;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .12);
+}
+
+
+
+.form-group input,
+.form-group textarea {
+    padding: 2rem;
+    background: white;
+    border: none;
+    width: 100%;
+    display: inline-block;
+    font-size: 2rem;
+}
+
+
+
+
+.form-group input:focus {
+    outline: 0;
+}
+
+
+
+.form-button {
+    text-align: left;
+}
+
+
+
+
+.form-button button {
+    background: #026cb8;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+
+
+
+.form-button .send-button:hover {
+    background-color: #ffb902;
+}
+
+
+
+/* --- Main-Contact-Area-Finish --- */
+
+
+
+
+
+
+
+
+/* --- Main-Finish --- */
+
+
+
+
+
+/* --- Footer--- */
+
+footer {
+    margin-top: 10rem;
+}
+
+
+footer .footer-maps {
+    background-color: #026cb8;
+    padding: 5rem 20rem;
+}
+
+
+
+footer .footer-maps .maps {
+    float: right;
+
+}
+
+
+
+footer .footer-adress {
+    width: 650px;
+    color: white;
+    margin-top: 3rem;
+}
+
+
+
+footer .footer-adress p {
+    font-size: 1.4rem;
+}
+
+
+
+footer .footer-adress .footer-icn-1 {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+
+
+
+footer .footer-adress .adress-icn {
+    text-align: justify;
+}
+
+
+
+
+footer .footer-adress .footer-icn-2 {
+    margin-right: 2rem;
+    transition: all 750ms;
+
+}
+
+
+
+footer .footer-adress .footer-icn-2:hover {
+    color: #ffb902;
+    cursor: pointer;
+}
+
+
+
+footer .footer-copyright {
+
+    text-align: center;
+    height: 45px;
+    background-color: #026cb8;
+    color: white;
+    font-size: 1.2rem;
+}
